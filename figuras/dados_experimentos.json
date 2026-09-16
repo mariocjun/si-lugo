@@ -1,0 +1,146 @@
+{
+  "cenarios": [
+    {
+      "esquema": "exponencial",
+      "taxa": 0.99,
+      "custo_medio": 9060.533411450488,
+      "tempo_medio": 0.0003055834770202637,
+      "iters_medio": 11.0
+    },
+    {
+      "esquema": "exponencial",
+      "taxa": 0.77,
+      "custo_medio": 8833.565250981737,
+      "tempo_medio": 0.0004002714157104492,
+      "iters_medio": 13.0
+    },
+    {
+      "esquema": "exponencial",
+      "taxa": 0.55,
+      "custo_medio": 8412.763856137028,
+      "tempo_medio": 0.0005281758308410644,
+      "iters_medio": 18.0
+    },
+    {
+      "esquema": "exponencial",
+      "taxa": 0.25,
+      "custo_medio": 7437.853648421613,
+      "tempo_medio": 0.0005457484722137451,
+      "iters_medio": 38.0
+    },
+    {
+      "esquema": "exponencial",
+      "taxa": 0.1,
+      "custo_medio": 6319.242416079988,
+      "tempo_medio": 0.0009483766555786133,
+      "iters_medio": 94.0
+    },
+    {
+      "esquema": "exponencial",
+      "taxa": 0.002,
+      "custo_medio": 4408.0973251185305,
+      "tempo_medio": 0.03791495442390442,
+      "iters_medio": 4607.0
+    },
+    {
+      "esquema": "geometrico",
+      "taxa": 0.88,
+      "custo_medio": 6631.877327053114,
+      "tempo_medio": 0.0007507443428039551,
+      "iters_medio": 74.0
+    },
+    {
+      "esquema": "geometrico",
+      "taxa": 0.99,
+      "custo_medio": 4643.621369940427,
+      "tempo_medio": 0.00748376727104187,
+      "iters_medio": 918.0
+    },
+    {
+      "esquema": "linear",
+      "taxa": 1.0,
+      "custo_medio": 6266.118064634336,
+      "tempo_medio": 0.0017365515232086182,
+      "iters_medio": 101.0
+    },
+    {
+      "esquema": "linear",
+      "taxa": 0.77,
+      "custo_medio": 6006.582393959019,
+      "tempo_medio": 0.004135475158691406,
+      "iters_medio": 131.0
+    },
+    {
+      "esquema": "linear",
+      "taxa": 0.55,
+      "custo_medio": 5713.170965236486,
+      "tempo_medio": 0.00379233717918396,
+      "iters_medio": 183.0
+    },
+    {
+      "esquema": "logaritmico",
+      "taxa": 0.0019,
+      "custo_medio": 3840.136243003134,
+      "tempo_medio": 0.4385435247421265,
+      "iters_medio": 50000.0
+    },
+    {
+      "esquema": "logaritmico",
+      "taxa": 0.002,
+      "custo_medio": 3841.363645967773,
+      "tempo_medio": 0.4403899013996124,
+      "iters_medio": 50000.0
+    },
+    {
+      "esquema": "logaritmico",
+      "taxa": 0.0013,
+      "custo_medio": 3841.6023514509398,
+      "tempo_medio": 0.4562449848651886,
+      "iters_medio": 50000.0
+    },
+    {
+      "esquema": "logaritmico",
+      "taxa": 0.0014,
+      "custo_medio": 3838.5546577959403,
+      "tempo_medio": 0.48144075393676755,
+      "iters_medio": 50000.0
+    },
+    {
+      "esquema": "logaritmico",
+      "taxa": 0.0012,
+      "custo_medio": 3843.7987788569844,
+      "tempo_medio": 0.45513938546180727,
+      "iters_medio": 50000.0
+    },
+    {
+      "esquema": "logaritmico",
+      "taxa": 0.0011,
+      "custo_medio": 3846.2699818314377,
+      "tempo_medio": 0.5314235043525696,
+      "iters_medio": 50000.0
+    }
+  ],
+  "comparativo": [
+    {
+      "n": 20,
+      "custo_sa": 4029.9332841637547,
+      "tempo_sa": 0.015571832656860352,
+      "custo_ga": 3911.7802484917506,
+      "tempo_ga": 0.8405346870422363
+    },
+    {
+      "n": 50,
+      "custo_sa": 8968.868233850042,
+      "tempo_sa": 0.015080451965332031,
+      "custo_ga": 8344.498447491851,
+      "tempo_ga": 3.7509078979492188
+    },
+    {
+      "n": 100,
+      "custo_sa": 20897.401753974642,
+      "tempo_sa": 0.025510787963867188,
+      "custo_ga": 14912.648165141534,
+      "tempo_ga": 22.10819935798645
+    }
+  ]
+}
