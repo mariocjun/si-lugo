@@ -1,0 +1,5 @@
+# Dependências para reprodução dos experimentos e execução do notebook
+numpy>=1.24.0
+matplotlib>=3.7.0
+jupyter>=1.0.0
+notebook>=6.5.0
